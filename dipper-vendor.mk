@@ -19,6 +19,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/dipper
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/dipper/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/xiaomi/dipper/proprietary/vendor/bin/glgps:$(TARGET_COPY_OUT_VENDOR)/bin/glgps \
     vendor/xiaomi/dipper/proprietary/vendor/bin/gps.cer:$(TARGET_COPY_OUT_VENDOR)/bin/gps.cer \
     vendor/xiaomi/dipper/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
